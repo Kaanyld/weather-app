@@ -13,7 +13,7 @@ function Dropdown() {
     return (
         <div className="flex flex-row md:w-full rounded-md lg:w-[1048px] mx-auto mt-12 bg-slate-500 shadow-2xl h-fit px-2  py-2">
 
-         <select value={city.name}
+         <select value={city.name} // Dropdown ile şehir isimlerine göre listeleme yapılıyor.
          onChange={changeCity}
          className=" w-1/6 p-2 text-black-500 cursor-pointer  rounded-md shadow-sm outline-none  ">
             {cities.map((item,key)=>{

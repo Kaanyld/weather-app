@@ -3,7 +3,7 @@ import axios from "axios";
 import { useWeather } from "../context/WeatherContext";
 
 function Day() {
-    const {city,weather,setWeather,days } = useWeather();
+    const {city,weather,setWeather,days } = useWeather(); // Kullanılacak propslar çağırılıyor.
     const api_key="e7704bc895b4a8d2dfd4a29d404285b6";
     useEffect(() => {
         
@@ -15,7 +15,7 @@ function Day() {
           setWeather((await res).data.daily);
         };
     getCity();
-    }, [city,setWeather]);
+    }, [city,setWeather]);  // city ve setWeather da değişiklik olduğunda mount edilecek.
     return (
         <div className="flex flex-row items-center justify-center mt-10 ">
           {weather.map((item, index) => (
