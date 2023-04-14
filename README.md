@@ -1,3 +1,18 @@
+**Weather App**
+
+**[Live Website](https://kaanyld-weatherapp.netlify.app/)**
+
+![](https://i.hizliresim.com/k8qwqua.JPG)
+
+- Openweathermap ile hava durumu verileri çekildi.
+
+- ContextApi kullanıldı.
+
+- Taildwind kullanıldı.
+
+**[ Patika Hesabım](https://app.patika.dev/kaanyl)**
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
